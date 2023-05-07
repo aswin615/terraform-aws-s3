@@ -13,3 +13,7 @@ module "s3_bucket" {
   }
 
 }
+
+module "ec2" {
+  source      = "git::https://github.com/aswin615/terraform-aws-ec2.git"
+}
